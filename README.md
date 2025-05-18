@@ -72,7 +72,9 @@ Curso de Programación FullStack Frontend de la **Universidad Popular Gral. Leva
 - Optimización de código y estructura HTML.
 - Introducción a la accesibilidad en sitios web.
 - Buenas prácticas para mejorar el SEO.
-🔗 [Ver Teoría](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-11.php)
+
+
+- [Link de Teoría](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-11.php)
 
 #### 🧪 Clase 12: Taller de Repaso y Evaluación Parcial 
 - Revisión y depuración en vivo de proyectos desarrollados.
