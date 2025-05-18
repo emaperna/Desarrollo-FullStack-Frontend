@@ -139,4 +139,4 @@ Curso de Programación FullStack Frontend de la **Universidad Popular Gral. Leva
 ---
 
 ## ⚠️ Derechos Reservados  
-**© 2025 - Todos los derechos reservados**  
+**© 2025 - Todos los derechos reservados**
