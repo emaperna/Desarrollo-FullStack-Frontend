@@ -195,25 +195,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
 
 Este programa te permitirá dominar las tecnologías esenciales para convertirte en desarrollador Full Stack:
 
-### ⚙️ HTML 5: 
+### ⚙️ HTML 5: **Estructura y organización de contenidos web mediante etiquetas semánticas.**
 
-- Estructura y organización de contenidos web mediante etiquetas semánticas.
+### ⚙️ CSS 3: **Diseño visual, maquetación y estilos para crear interfaces atractivas y responsivas.**
 
-### ⚙️ CSS 3:
+### ⚙️ JavaScript: **Interactividad en el cliente, manipulación del DOM y funcionalidades dinámicas.**
 
-- Diseño visual, maquetación y estilos para crear interfaces atractivas y responsivas.
+### ⚙️ PHP: **Programación del lado del servidor para gestionar datos y lógica de negocio.**
 
-### ⚙️ JavaScript:
-
-- Interactividad en el cliente, manipulación del DOM y funcionalidades dinámicas.
-
-### ⚙️ PHP:
-
-- Programación del lado del servidor para gestionar datos y lógica de negocio.
-
-### ⚙️ MySQL:
-
-- Base de datos relacional para almacenar y consultar información de manera estructurada.
+### ⚙️ MySQL: **Base de datos relacional para almacenar y consultar información de manera estructurada.**
 
 ---
 
@@ -244,15 +234,16 @@ Herramientas Básicas: Editores de Código, Navegadores y el Inspector de Elemen
 
 - Las etiquetas HTML son los bloques fundamentales para construir páginas web. Cada tipo cumple una función específica en la estructura de tu documento.
 
-### Encabezados (6)
+
+### Encabezados (6): Define la jerarquía y organización del contenido en la página.
 
 - `<h1>` – Encabezado principal
 - `<h2>` – Segundo nivel
 - `<h3>` – Tercer nivel
-… hasta `<h6>` – Define la jerarquía y organización del contenido en la página.
+… hasta `<h6>` 
 
 
-### Texto y contenido (9+)
+### Texto y contenido (9+): Elementos fundamentales para mostrar y organizar tu contenido.
 
 - `<p>` – Párrafo
 - `<a href="#">` – Enlace
@@ -264,29 +255,23 @@ Herramientas Básicas: Editores de Código, Navegadores y el Inspector de Elemen
 - `<span>` – Contenedor en línea
 - `<div>` – Contenedor en bloque
 
-- Elementos fundamentales para mostrar y organizar tu contenido.
 
-
-### Listas (3)
+### Listas (3): Organiza información en formato de listas numeradas o con viñetas.
 
 - `<ul>` – Lista desordenada
 - `<ol>` – Lista ordenada
 - `<li>` – Elemento de lista
 
-- Organiza información en formato de listas numeradas o con viñetas.
 
-
-### Tablas (4)
+### Tablas (4): Muestra datos tabulares organizados en filas y columnas.
 
 - `<table>` – Tabla
 - `<tr>` – Fila de tabla
 - `<td>` – Celda
 - `<th>` – Encabezado de celda
 
-- Muestra datos tabulares organizados en filas y columnas.
 
-
-### Formularios e Interacción (5+)
+### Formularios e Interacción (5+): Permite a los usuarios interactuar y enviar información a través de la web.
 
 - `<form>` – Formulario
 - `<input type="...">` – Campos de entrada
@@ -294,27 +279,22 @@ Herramientas Básicas: Editores de Código, Navegadores y el Inspector de Elemen
 - `<select> y <option>` – Menú desplegable
 - `<textarea>` – Área de texto
 
-- Permite a los usuarios interactuar y enviar información a través de la web.
 
-
-### Multimedia (4)
+### Multimedia (4): Incorpora contenido multimedia como audio, video y elementos externos.
 
 - `<audio>` – Audio
 - `<video>` – Video
 - `<source>` – Fuente multimedia
 - `<iframe>` – Contenido externo
 
-- Incorpora contenido multimedia como audio, video y elementos externos.
 
-
-### Otros elementos importantes (4)
+### Otros elementos importantes (4): Elementos para incorporar scripts, estilos y comportamientos a tu página.
 
 - `<script>` – JavaScript
 - `<link>` – Hojas de estilo o iconos
 - `<style>` – CSS interno
 - `<noscript>` – Contenido sin JS
 
-- Elementos para incorporar scripts, estilos y comportamientos a tu página.
 
 ---
 
