@@ -59,7 +59,7 @@ Un programador es un profesional que se dedica a crear y optimizar software info
 
 ### 🧩 Tipos de programadores
 
-#### Por especialidad
+#### Por Especialidad
 
 - **Desarrollador web**: Crea y mantiene sitios web y aplicaciones web.
 - **Desarrollador móvil**: Crea aplicaciones para dispositivos móviles.
@@ -69,7 +69,7 @@ Un programador es un profesional que se dedica a crear y optimizar software info
 - **Científico de datos**: Analiza datos y desarrolla modelos predictivos.
 - **Ingeniero de IA**: Desarrolla sistemas de aprendizaje autónomo.
 
-#### Por lenguaje de programación
+#### Por Lenguaje de Programación
 
 - **Desarrollador Java**: Especializado en aplicaciones empresariales.
 - **Desarrollador Python**: Análisis de datos, IA, web y desarrollo general.
@@ -77,14 +77,14 @@ Un programador es un profesional que se dedica a crear y optimizar software info
 - **Desarrollador JavaScript**: Aplicaciones web, móviles y de servidor.
 - **Desarrollador PHP**: Aplicaciones web y gestión de contenidos.
 
-#### Por experiencia
+#### Por Experiencia
 
 - **Junior**: Poca experiencia, generalmente recién graduado.
 - **Semi Senior**: Conocimientos medios del rubro y programación.
 - **Senior**: Mucha experiencia y conocimiento en su especialización.
 - **Lead**: Lidera equipos y toma decisiones técnicas.
 
-#### Por rol
+#### Por Rol
 
 - **Desarrollador**: Se encarga de escribir el código.
 - **QA**: Se encarga de probar el software.
@@ -244,69 +244,75 @@ Herramientas Básicas: Editores de Código, Navegadores y el Inspector de Elemen
 
 - Las etiquetas HTML son los bloques fundamentales para construir páginas web. Cada tipo cumple una función específica en la estructura de tu documento.
 
-**Encabezados** (6)
+### Encabezados (6)
 
-`<h1>` – Encabezado principal
-`<h2>` – Segundo nivel
-`<h3>` – Tercer nivel
+- `<h1>` – Encabezado principal
+- `<h2>` – Segundo nivel
+- `<h3>` – Tercer nivel
 … hasta `<h6>` – Define la jerarquía y organización del contenido en la página.
 
-**Texto y contenido** (9+)
 
-`<p>` – Párrafo
-`<a href="#">` – Enlace
-`<img src="…" alt="…">` – Imagen
-`<strong>` - Negrita semántica
-`<em>` – Cursiva semántica
-`<br>` – Salto de línea
-`<hr>` – Línea horizontal
-`<span>` – Contenedor en línea
-`<div>` – Contenedor en bloque
+### Texto y contenido (9+)
+
+- `<p>` – Párrafo
+- `<a href="#">` – Enlace
+- `<img src="…" alt="…">` – Imagen
+- `<strong>` - Negrita semántica
+- `<em>` – Cursiva semántica
+- `<br>` – Salto de línea
+- `<hr>` – Línea horizontal
+- `<span>` – Contenedor en línea
+- `<div>` – Contenedor en bloque
 
 - Elementos fundamentales para mostrar y organizar tu contenido.
 
-**Listas** (3)
 
-`<ul>` – Lista desordenada
-`<ol>` – Lista ordenada
-`<li>` – Elemento de lista
+### Listas (3)
+
+- `<ul>` – Lista desordenada
+- `<ol>` – Lista ordenada
+- `<li>` – Elemento de lista
 
 - Organiza información en formato de listas numeradas o con viñetas.
 
-**Tablas** (4)
 
-`<table>` – Tabla
-`<tr>` – Fila de tabla
-`<td>` – Celda
-`<th>` – Encabezado de celda
+### Tablas (4)
+
+- `<table>` – Tabla
+- `<tr>` – Fila de tabla
+- `<td>` – Celda
+- `<th>` – Encabezado de celda
 
 - Muestra datos tabulares organizados en filas y columnas.
 
-**Formularios e Interacción** (5+)
 
-`<form>` – Formulario
-`<input type="...">` – Campos de entrada
-`<button>` – Botón
-`<select> y <option>` – Menú desplegable
-`<textarea>` – Área de texto
+### Formularios e Interacción (5+)
+
+- `<form>` – Formulario
+- `<input type="...">` – Campos de entrada
+- `<button>` – Botón
+- `<select> y <option>` – Menú desplegable
+- `<textarea>` – Área de texto
 
 - Permite a los usuarios interactuar y enviar información a través de la web.
 
-**Multimedia** (4)
 
-`<audio>` – Audio
-`<video>` – Video
-`<source>` – Fuente multimedia
-`<iframe>` – Contenido externo
+### Multimedia (4)
+
+- `<audio>` – Audio
+- `<video>` – Video
+- `<source>` – Fuente multimedia
+- `<iframe>` – Contenido externo
 
 - Incorpora contenido multimedia como audio, video y elementos externos.
 
-**Otros elementos importantes** (4)
 
-`<script>` – JavaScript
-`<link>` – Hojas de estilo o iconos
-`<style>` – CSS interno
-`<noscript>` – Contenido sin JS
+### Otros elementos importantes (4)
+
+- `<script>` – JavaScript
+- `<link>` – Hojas de estilo o iconos
+- `<style>` – CSS interno
+- `<noscript>` – Contenido sin JS
 
 - Elementos para incorporar scripts, estilos y comportamientos a tu página.
 
