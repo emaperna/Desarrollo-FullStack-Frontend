@@ -71,7 +71,7 @@ Curso de Programación FullStack Frontend de la **Universidad Popular Gral. Leva
 #### ♿ Clase 11: Mejores Prácticas, Accesibilidad y SEO Básico  
 - Optimización de código y estructura HTML.
 - Introducción a la accesibilidad en sitios web.
-- Buenas prácticas para mejorar el SEO. 
+- Buenas prácticas para mejorar el SEO.
 🔗 [Ver Teoría](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-11.php)
 
 #### 🧪 Clase 12: Taller de Repaso y Evaluación Parcial 
