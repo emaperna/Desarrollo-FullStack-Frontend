@@ -50,11 +50,11 @@ href="https://ejemplo.com"
 </a>
 ```
 
-**Etiqueta de apertura**
+- **Etiqueta de apertura**
 
-**Contenido**
+- **Contenido**
 
-**Etiqueta de cierre**
+- **Etiqueta de cierre**
 
 - Algunas etiquetas como `<img>`, `<br>` o `<input>` son auto-cerradas y no necesitan etiqueta de cierre:
 
