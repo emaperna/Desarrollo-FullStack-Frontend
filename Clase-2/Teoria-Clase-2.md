@@ -8,7 +8,7 @@
 
 ## 🧠 Objetivo de la clase
 
-Ampliar los conocimientos de HTML mediante la creación de formularios y listas. A través de ejercicios guiados, se busca que los estudiantes adquieran confianza en el uso de estas etiquetas y desarrollen una estructura HTML más completa.
+- Ampliar los conocimientos de HTML mediante la creación de formularios y listas. A través de ejercicios guiados, se busca que los estudiantes adquieran confianza en el uso de estas etiquetas y desarrollen una estructura HTML más completa.
 
 ---
 
@@ -16,27 +16,27 @@ Ampliar los conocimientos de HTML mediante la creación de formularios y listas.
 
 ### Estructura de las etiquetas
 
-Las etiquetas HTML son los bloques básicos que definen la estructura y el contenido de una página web. La mayoría de etiquetas tienen una estructura de apertura y cierre que envuelve el contenido.
+- Las etiquetas HTML son los bloques básicos que definen la estructura y el contenido de una página web. La mayoría de etiquetas tienen una estructura de apertura y cierre que envuelve el contenido.
 
-#### Etiqueta de apertura
+#### Etiqueta de apertura:
 
-Indica dónde comienza el enlace.
+- Indica dónde comienza el enlace.
 
 ```html
 <a href="https://ejemplo.com">
 ```
 
-#### Etiqueta de cierre
+#### Etiqueta de cierre:
 
-Indica dónde termina el enlace.
+- Indica dónde termina el enlace.
 
 ```html
 </a>
 ```
 
-#### Atributo
+#### Atributo:
 
-Define la URL de destino del enlace.
+- Define la URL de destino del enlace.
 
 ```html
 href="https://ejemplo.com"
@@ -56,7 +56,7 @@ href="https://ejemplo.com"
 
 **Etiqueta de cierre**
 
-Algunas etiquetas como `<img>`, `<br>` o `<input>` son auto-cerradas y no necesitan etiqueta de cierre:
+- Algunas etiquetas como `<img>`, `<br>` o `<input>` son auto-cerradas y no necesitan etiqueta de cierre:
 
 ```html
 <img src="imagen.jpg">
@@ -70,7 +70,7 @@ o en formato XHTML:
 
 ### Enlaces (`<a>`)
 
-Los enlaces permiten conectar diferentes páginas o recursos en la web. Se crean con la etiqueta `<a>` y el atributo `href` para indicar la dirección de destino.
+- Los enlaces permiten conectar diferentes páginas o recursos en la web. Se crean con la etiqueta `<a>` y el atributo `href` para indicar la dirección de destino.
 
 #### Tipos de enlaces:
 
@@ -98,7 +98,7 @@ Los enlaces permiten conectar diferentes páginas o recursos en la web. Se crean
 
 ### Formularios
 
-Los formularios son elementos que permiten al usuario introducir y enviar datos a través de una página web. Son esenciales para crear sistemas de contacto, registro, búsquedas, encuestas, etc.
+- Los formularios son elementos que permiten al usuario introducir y enviar datos a través de una página web. Son esenciales para crear sistemas de contacto, registro, búsquedas, encuestas, etc.
 
 #### Estructura básica de un formulario:
 
@@ -112,11 +112,11 @@ Los formularios son elementos que permiten al usuario introducir y enviar datos 
 
 ### Listas
 
-Las listas se utilizan para organizar elementos relacionados. Pueden ser ordenadas (con números) o desordenadas (con viñetas).
+- Las listas se utilizan para organizar elementos relacionados. Pueden ser ordenadas (con números) o desordenadas (con viñetas).
 
 #### Lista desordenada (`<ul>`)
 
-Cada elemento aparece con una viñeta o bullet point.
+- Cada elemento aparece con una viñeta o bullet point.
 
 ```html
 <ul>
@@ -127,7 +127,7 @@ Cada elemento aparece con una viñeta o bullet point.
 
 #### Lista ordenada (`<ol>`)
 
-Cada elemento aparece con un número o letra secuencial.
+- Cada elemento aparece con un número o letra secuencial.
 
 ```html
 <ol>
@@ -138,7 +138,7 @@ Cada elemento aparece con un número o letra secuencial.
 
 #### Elemento de lista (`<li>`)
 
-Se usa dentro de `<ul>` o `<ol>` para cada ítem.
+- Se usa dentro de `<ul>` o `<ol>` para cada ítem.
 
 ```html
 <ul>
