@@ -98,7 +98,7 @@ o en formato XHTML:
 
 ### 🧾 Formularios
 
-- Los formularios son elementos que permiten al usuario introducir y enviar datos a través de una página web. Son esenciales para crear sistemas de contacto, registro, búsquedas, encuestas, etc.
+- ➤ Los formularios son elementos que permiten al usuario introducir y enviar datos a través de una página web. Son esenciales para crear sistemas de contacto, registro, búsquedas, encuestas, etc.
 
 #### 🧱 Estructura básica de un formulario:
 
@@ -110,7 +110,7 @@ o en formato XHTML:
 </form>
 ```
 
-### Listas
+### 🧾 Listas
 
 - ➤ Las listas se utilizan para organizar elementos relacionados. Pueden ser ordenadas (con números) o desordenadas (con viñetas).
 
@@ -125,7 +125,7 @@ o en formato XHTML:
 </ul>
 ```
 
-#### Lista ordenada (`<ol>`)
+#### 🔢 Lista ordenada (`<ol>`)
 
 - ➤ Cada elemento aparece con un número o letra secuencial.
 
@@ -164,6 +164,7 @@ o en formato XHTML:
 4. 🧪 Probar el formulario en el navegador.
 
 **💡 Bonus:** Usar el atributo `required` para validar que los campos no estén vacíos.
+
 
 ### ✍️ Actividad 2: Listas desordenadas y ordenadas
 
