@@ -1,0 +1,76 @@
+<!--Actividad 2: Imágenes y enlaces
+
+Objetivo: Practicar la inserción de imágenes y la creación de diversos tipos de enlaces.
+
+Crear un archivo llamado galeria.html
+Crear una galería simple con:
+Al menos 3 imágenes (usar URLs de internet si no tienes imágenes propias)
+Cada imagen debe tener un texto alternativo descriptivo
+Debajo de cada imagen, añadir un enlace que abra la imagen en una nueva pestaña
+Al final de la página, crear una sección de "Contacto" con:
+Un enlace para enviar un correo electrónico
+Un enlace a una red social
+Un enlace interno que regrese al principio de la página (usar el atributo id)
+Bonus: Organizar las imágenes en una tabla para que queden en filas de 2 imágenes. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagenes</title>
+</head>
+<body>
+    <h1 id="inicio"> Galeria de Imagenes </h1>
+    <table 
+    border="1" 
+    aling="center"
+    cellpadding="10">
+        <tr>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nPyQqCYYu0_MEndh3hEQ4Yb7BQm3VjEPSg&s" 
+                alt="Brais Moure Dev" 
+                width="400"
+                height="400">
+                <p><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nPyQqCYYu0_MEndh3hEQ4Yb7BQm3VjEPSg&s" 
+                target="_blank"> Brais Moure Dev </a></p>    
+            </td>
+            <td>
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQFCmppqz3DVSA/profile-displayphoto-shrink_200_200/B4EZVx3xyMHcAc-/0/1741372202992?e=2147483647&v=beta&t=GMtdyzbQrdB22ppzF9ZSrVs4gAv2TPEQ8-l5iGCrVh4" 
+                alt="Alan Buscaglia Dev" 
+                width="400"
+                height="400">
+                <p></p><a href="https://media.licdn.com/dms/image/v2/D4E03AQFCmppqz3DVSA/profile-displayphoto-shrink_200_200/B4EZVx3xyMHcAc-/0/1741372202992?e=2147483647&v=beta&t=GMtdyzbQrdB22ppzF9ZSrVs4gAv2TPEQ8-l5iGCrVh4" 
+                target="_blank"> Alan Buscaglia Dev </a></p>          
+            </td>
+        <tr>
+        </tr>
+            <td>
+                <img src="https://yt3.googleusercontent.com/QkJIZgFfiFacdK8syyPRt7cJYPl3jTf0qFhdPwFdpJpyCW5jI_uylNK5a3IH8bitE2wy6Dr2Lw=s900-c-k-c0x00ffffff-no-rj" 
+                alt="Miguel Angel Duran Dev" 
+                width="400"
+                height="400">
+                <p></p><a href="https://yt3.googleusercontent.com/QkJIZgFfiFacdK8syyPRt7cJYPl3jTf0qFhdPwFdpJpyCW5jI_uylNK5a3IH8bitE2wy6Dr2Lw=s900-c-k-c0x00ffffff-no-rj" 
+                target="_blank"> Miguel Angel Duran Dev </a></p>          
+            </td>
+            <td>
+                <img src="https://goncy.netlify.app/static/960e055c5bb7e4cb1e261811ad91b60f/69585/goncy.png" 
+                alt="Gonzalo Pozzo Dev" 
+                width="400"
+                height="400">
+                <p></p><a href="https://goncy.netlify.app/static/960e055c5bb7e4cb1e261811ad91b60f/69585/goncy.png" 
+                target="_blank"> Gonzalo Pozzo Dev </a></p>          
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <table width="100%">
+            <tr>
+                <td><a href="mailto: programadores_levalle@gob.com.ar">Enviar e/Mail</a></td>
+                <td><a href="https://www.google.com.ar">Google</a></td>
+                <td><a href="#inicio">Volver al Inicio</a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

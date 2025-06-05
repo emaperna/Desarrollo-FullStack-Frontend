@@ -1,0 +1,67 @@
+<!--
+
+Actividad 1: Tabla de contactos
+
+Objetivo: Practicar la creación y estructura básica de tablas en HTML.
+
+Crear un archivo llamado tabla_contactos.html
+Crear una tabla de contactos con cinco columnas:
+Nombre
+Apellido
+Dirección
+Correo electrónico
+Teléfono
+Completar la tabla con datos de al menos 3 personas (pueden ser ficticios).
+Usar las etiquetas <th> para los encabezados y <td> para los datos.
+Bonus: Añadir el atributo border="1" a la tabla.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Contactos</title>
+</head>
+<body>
+    <h1>
+        Lista de Contactos
+    </h1>
+    <table 
+    border="1"
+    aling="center"
+    cellpadding="10">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Direccion</th>
+                <th>Correo Electronico</th>
+                <th>Telefono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gonzalo</td>
+                <td>Pozzo</td>
+                <td>Mitre 365, Buenos Aires</td>
+                <td>goncydev@gmail.com</td>
+                <td>+54911546873</td>
+            </tr>
+             <tr>
+                <td>Alan</td>
+                <td>Buscaglia</td>
+                <td>Medellin 985, Barcelona</td>
+                <td>alanbuscaglia@gmail.com</td>
+                <td>+24987154604</td>
+            </tr>
+             <tr>
+                <td>Brais</td>
+                <td>Moure</td>
+                <td>Juan Galeano 774, Andorra</td>
+                <td>mouredev@gmail.com</td>
+                <td>+98763288248</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
