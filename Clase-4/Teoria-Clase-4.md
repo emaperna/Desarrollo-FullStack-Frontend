@@ -132,7 +132,7 @@
 
 ## 🛠️ Atributos importantes para inputs:
 
-- Los inputs en HTML pueden usar diversos atributos para mejorar la funcionalidad y experiencia del usuario. A continuación verás cada atributo con su explicación y ejemplo práctico:
+-- Los inputs en HTML pueden usar diversos atributos para mejorar la funcionalidad y experiencia del usuario. A continuación verás cada atributo con su explicación y ejemplo práctico:
 
 
 - `required`: Campo obligatorio, Hace que el campo sea obligatorio para enviar el formulario. Si está vacío, el navegador mostrará un mensaje de error.
@@ -142,22 +142,22 @@
 `<input type="email" placeholder="ejemplo@correo.com">`
 
 - `min` / `max`: Valores límite, Define valores mínimo y máximo para campos numéricos y de fecha. El navegador validará automáticamente.
-  `<input type="number" min="18" max="65">` Prueba ingresar un número fuera del rango
+  `<input type="number" min="18" max="65">` (Prueba ingresar un número fuera del rango)
 
 - `step`: Incremento, Especifica el incremento en campos numéricos y de rango. Útil para precios, porcentajes, etc.
-  `<input type="number" step="0.50">` Usa las flechas del campo para ver el incremento
+  `<input type="number" step="0.50">` (Usa las flechas del campo para ver el incremento)
 
 - `pattern`: Validación personalizada, Define un patrón de validación usando expresiones regulares para formatos específicos.
-  `<input type="text" pattern="[0-9]{5}">` Solo acepta exactamente 5 números
+  `<input type="text" pattern="[0-9]{5}">` (Solo acepta exactamente 5 números)
 
 - `disabled`: Campo desactivado, Desactiva el campo, impidiendo la interacción del usuario. El valor no se envía en el formulario.
-  `<input type="text" disabled>` Este campo no es interactivo
+  `<input type="text" disabled>` (Este campo no es interactivo)
 
 - `readonly`: Solo lectura, Hace el campo de solo lectura, visible pero no editable. A diferencia de disabled, el valor sí se envía.
-  `<input type="text" readonly>` Puedes seleccionar el texto pero no editarlo
+  `<input type="text" readonly>` (Puedes seleccionar el texto pero no editarlo)
 
 - `multiple`: Selección múltiple, Permite seleccionar múltiples valores en campos de archivo o listas.
-  `<input type="file" multiple>`  Puedes seleccionar varios archivos a la vez
+  `<input type="file" multiple>`  (Puedes seleccionar varios archivos a la vez)
 
 - `autocomplete`
   ``
