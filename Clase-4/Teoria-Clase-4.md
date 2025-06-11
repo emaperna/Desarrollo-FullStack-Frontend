@@ -94,27 +94,27 @@
   ```
 
 - `date`: Campo para fechas
- ```html
+  ```html
   <input type="date">
   ```
   
 - `time`: Campo para hora
- ```html
+  ```html
   <input type="time">  
   ```
 
 - `datetime-local`: Fecha y hora local
- ```html
+  ```html
   <input type="datetime-local">
   ```
 
 - `month`: Selector de mes
- ```html
+  ```html
   <input type="month">
   ```
 
 - `week`: Selector de semana
- ```html
+  ```html
   <input type="week">
   ```
 
@@ -122,51 +122,51 @@
 ### ☑️ Inputs de selección:
 
 - `checkbox`: Casilla de verificación
- ```html
+  ```html
   <input type="checkbox">
   ```
 
 - `radio`: Botones de opción
- ```html
+  ```html
   <input type="radio" name="grupo">
   ```
 
 - `color`: Selector de color
- ```html
+  ```html
   <input type="color">
   ```
 
 - `file`: Selector de archivos
- ```html
+  ```html
   <input type="file">
   ```
 
 ### 🔘 Inputs de Botones:
 
 - `submit`: Botón de envío
- ```html
+  ```html
   <input type="submit">
   ```
 
 - `reset`: Botón de reinicio
- ```html
+  ```html
   <input type="reset">
   ```
 
 - `button`: Botón genérico
- ```html
+  ```html
   <input type="button">
   ```
 
 ### 🛠️  Inputs Especiales:
 
 - `hidden`: Campo oculto (no visible), Este campo no es visible pero está presente en el formulario
- ```html
+  ```html
   <input type="hidden">
   ```
 
 - `image`: Botón de imagen
- ```html
+  ```html
   <input type="image" src="imagen.png">
   ```
 
@@ -178,100 +178,100 @@
 
 
 - `required`: Campo obligatorio, Hace que el campo sea obligatorio para enviar el formulario. Si está vacío, el navegador mostrará un mensaje de error.
- ```html
+  ```html
   <input type="text" required>
   ```
 Intenta enviar sin llenar este campo
 
 - `placeholder`: Texto de ayuda, Muestra un texto de ayuda dentro del campo que desaparece cuando el usuario empieza a escribir.
- ```html
+  ```html
   <input type="email" placeholder="ejemplo@correo.com">
   ```
 
 - `min` / `max`: Valores límite, Define valores mínimo y máximo para campos numéricos y de fecha. El navegador validará automáticamente.
- ```html
+  ```html
   <input type="number" min="18" max="65">
   ```
 (Prueba ingresar un número fuera del rango)
 
 - `step`: Incremento, Especifica el incremento en campos numéricos y de rango. Útil para precios, porcentajes, etc.
- ```html
+  ```html
   <input type="number" step="0.50">
   ```
 (Usa las flechas del campo para ver el incremento)
 
 - `pattern`: Validación personalizada, Define un patrón de validación usando expresiones regulares para formatos específicos.
- ```html
+  ```html
   <input type="text" pattern="[0-9]{5}">
   ```
 (Solo acepta exactamente 5 números)
 
 - `disabled`: Campo desactivado, Desactiva el campo, impidiendo la interacción del usuario. El valor no se envía en el formulario.
- ```html
+  ```html
   <input type="text" disabled>  
   ```
 (Este campo no es interactivo)
 
 - `readonly`: Solo lectura, Hace el campo de solo lectura, visible pero no editable. A diferencia de disabled, el valor sí se envía.
- ```html
+  ```html
   <input type="text" readonly>
   ```
 (Puedes seleccionar el texto pero no editarlo)
 
 - `multiple`: Selección múltiple, Permite seleccionar múltiples valores en campos de archivo o listas.
- ```html
+  ```html
   <input type="file" multiple>
   ```
 (Puedes seleccionar varios archivos a la vez)
 
 - `accept`: Tipos de archivo permitidos, Especifica qué tipos de archivo son permitidos en inputs de tipo file.
-   ```html
+  ```html
   <input type="file" accept=".pdf">
   ```
 (Solo permite seleccionar archivos PDF)
 
 - `autocomplete`: Control de autocompletado, Controla si el navegador puede autocompletar el campo con datos guardados previamente.
-   ```html
+  ```html
   <input type="text" autocomplete="off">
   ```
 
 - `value`: Valor predeterminado, Establece un valor inicial que aparece cuando se carga la página.
-   ```html
+  ```html
   <input type="text" value="España">
   ```
 (Valor predefinido que el usuario puede cambiar)
 
 - `maxlength`: Límite de caracteres, Limita el número máximo de caracteres que se pueden escribir en el campo.
-   ```html
+  ```html
   <input type="text" maxlength="50">
   ```
 (No podrás escribir más de 50 caracteres)
 
 - `size`: Ancho visual, Define el ancho visual del campo en número de caracteres.
-   ```html
+  ```html
   <input type="text" size="40">
   ```
 
 - `autofocus`: Foco automático, Hace que el campo reciba el foco automáticamente cuando se carga la página.
-   ```html
+  ```html
   <input type="text" autofocus>
   ```
 (Solo un elemento por página debe tener autofocus)
 
 - `form`: Asociar con formulario, Permite asociar un input con un formulario específico aunque no esté dentro de él.
-   ```html
+  ```html
   <input type="text" form="miFormulario">
   ```
 (Este input está fuera del form pero se enviará con él)
 
 - `list`: Lista de sugerencias, Conecta el input con un datalist para mostrar opciones sugeridas.
-   ```html
+  ```html
   <input type="text" list="navegadores">
   ```
 (Empieza a escribir para ver las sugerencias)
 
 - `formnovalidate`: Omitir validación, En botones de envío, permite enviar el formulario sin validar los campos.
-   ```html
+  ```html
   <input type="submit" formnovalidate>
   ```
 (El segundo botón no validará el email)
