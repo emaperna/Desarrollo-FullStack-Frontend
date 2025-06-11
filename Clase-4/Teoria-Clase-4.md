@@ -285,8 +285,7 @@
 ## 💡Mejores Prácticas para Inputs
 
 - 🎯 Usa el tipo correcto:
-
-  Cada tipo de input tiene un propósito específico. Usar type="email" para emails activa la validación automática y mejora la experiencia en móviles.
+  Cada tipo de input tiene un propósito específico. Usar `type="email"` para emails activa la validación automática y mejora la experiencia en móviles.
 
 - 📱 Piensa en móviles:
   Los tipos `tel`, `email` y `number` muestran teclados específicos en dispositivos móviles, facilitando la entrada de datos.
