@@ -52,13 +52,15 @@
 ### 📄 Inputs de texto:
 
 - `text`: Campo de texto básico
-  `<input type="text">`
+  ```html
+  <input type="text">
+  ```
 
 - `password`: Campo para contraseñas
   `<input type="password">`
 
 - `email`: Campo para correos electrónicos
-  `<<input type="email">>`
+  `<input type="email">`
 
 - `url`: Campo para URLs
   `<input type="url">`
