@@ -310,7 +310,7 @@
 
 ## Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.
 
-- 1 Crear un archivo llamado pagina_semantica.html
+- 1 Crear un archivo llamado `pagina_semantica.html`
 - 2 Construir una página con la siguiente estructura:
     - Un `<header>` que contenga un título y una pequeña descripción
     - Un `<nav>` con al menos 4 enlaces (pueden ser ficticios)
