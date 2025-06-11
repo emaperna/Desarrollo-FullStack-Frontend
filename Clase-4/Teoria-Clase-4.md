@@ -1,6 +1,11 @@
 
 # 📚 Clase 4 – Semántica HTML
 
+> Curso de Desarrollo FullStack - Frontend 2025  
+> Universidad Popular Gral. Levalle, Córdoba  
+> [🔗 Ver clase online](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-4.php)
+
+---
 ## 🎯 Etiquetas semánticas
 
 - Las etiquetas semánticas en HTML5 ayudan a dar significado al contenido de la página, facilitando la comprensión tanto para los desarrolladores como para los navegadores y motores de búsqueda.
@@ -274,33 +279,110 @@
   ```html
   <input type="submit" formnovalidate>
   ```
-  (El segundo botón no validará el email)
 
 ---
 
 ## 💡Mejores Prácticas para Inputs
 
-- Usa el tipo correcto:
-Cada tipo de input tiene un propósito específico. Usar 
-```html
-  <type="email"
-  ``` 
-para emails activa la validación automática y mejora la experiencia en móviles.
+- 🎯 Usa el tipo correcto:
 
-- Aplica validaciones HTML y del lado del servidor.
-- Mejora la experiencia con `placeholder`, `autofocus`, `autocomplete`.
-- Piensa en la accesibilidad y dispositivos móviles.
+  Cada tipo de input tiene un propósito específico. Usar type="email" para emails activa la validación automática y mejora la experiencia en móviles.
+
+- 📱 Piensa en móviles:
+  Los tipos `tel`, `email` y `number` muestran teclados específicos en dispositivos móviles, facilitando la entrada de datos.
+
+- ✅ Valida siempre:
+  Combina validación HTML (required, pattern) con validación en el servidor. HTML es rápido pero no es seguro como única validación.
+
+- 💡 Ayuda al usuario:
+  Usa `placeholder` para ejemplos, `title` para instrucciones y `label` siempre asociados con el input.
+
+- 🚀 Mejora la UX:
+  Usa `autofocus` en el campo principal, `autocomplete` para datos comunes y `list` para sugerencias.
+
+- 🔒 Seguridad:
+  Nunca confíes solo en validación del cliente. Siempre valida y sanitiza datos en el servidor para evitar ataques.
 
 ---
 
-## 📝 Actividades
+## 📝 Actividades Prácticas:
 
 ### ✅ Actividad 1: Estructura semántica
 
-Crear una página HTML con etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`.
+## Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.
 
-### ✅ Actividad 2: Proyecto "Mi Blog"
+- 1 Crear un archivo llamado pagina_semantica.html
+- 2 Construir una página con la siguiente estructura:
+    - Un `<header>` que contenga un título y una pequeña descripción
+    - Un `<nav>` con al menos 4 enlaces (pueden ser ficticios)
+    - Un `<main>` dividido en 2 `<section>`:
+        - Primera sección: 2 `<article>` con contenido breve
+        - Segunda sección: Un formulario simple
+        
+    - Un `<aside>` con "contenido relacionado" o "publicidad"
+    - Un `<footer>` con derechos de autor y año
 
-Construir un blog personal con estructura semántica, artículos, formulario de contacto, y navegación.
+Bonus: Utilizar `<time>`, `<figure>` y `<figcaption>` en alguna parte de la página.
 
+
+### ✅ Actividad 2: Proyecto "Mi Blog Personal"
+
+
+## Objetivo: Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.
+
+- Descripción del proyecto:
+
+- Crearás la primera versión de un blog personal donde podrás compartir artículos, noticias o temas de tu interés. Este proyecto lo iremos mejorando en clases posteriores añadiendo CSS y JavaScript.
+
+    - 1 Crear una carpeta llamada `mi-blog` con los siguientes archivos:
+        - `index.html` (página principal)
+        - `articulo1.html` (un artículo completo)
+        - `sobre-mi.html` (página con información personal)
+        - `contacto.html` (formulario de contacto)
+
+    - 2 En `index.html`:
+        - Header con el nombre de tu blog y un lema
+        - Menú de navegación con enlaces a todas las páginas
+        - Sección principal con 3 tarjetas de artículos (cada una con título, fecha, imagen y resumen)
+        - Barra lateral con "sobre mí" resumido y categorías (lista)
+        - Pie de página con derechos, año y redes sociales
+  
+    - 3 En `articulo1.html`:
+        - Mismo header y navegación que en index
+        - Contenido del artículo completo:
+            - Título principal y fecha
+            - Imagen destacada
+            - Texto dividido en párrafos
+            - Una lista (ordenada o no)
+            - Una tabla con datos relevantes
+        - Sección de comentarios (simulada con un comentario ya hecho)
+        - El mismo pie de página
+    
+    - 4 En `sobre-mi.html`:
+        - Tu foto (o imagen de avatar)
+        - Información personal (puede ser ficticia)
+        - Lista de habilidades o intereses
+        - Enlaces a redes sociales
+    
+    - 5 En `contacto.html`:
+        - Formulario de contacto completo
+        - Campos para nombre, email, asunto y mensaje
+        - Casillas de verificación para suscripción
+        - Botón de envío
+        - Información alternativa de contacto
+
+- Sugerencias:
+
+    - Usa etiquetas semánticas para toda la estructura
+    - No te preocupes aún por el diseño visual, nos enfocaremos en la estructura HTML
+    - Puedes usar contenido ficticio o generado para los textos
+    - Utiliza imágenes gratuitas de internet o tus propias imágenes
+    - Revisa tu código en el validador de HTML para asegurarte de que es correcto
+
+**💡 Bonus**: Añade metadatos en el `<head>` como autor, descripción y palabras clave.
+
+
+## 📚 Recursos Adicionales
+
+- [🔗 Ver clase online](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-4.php)
 ---

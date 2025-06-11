@@ -133,4 +133,4 @@
 
 ## 📚 Recursos Adicionales
 
-- [🔗 Ver clase online](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-2.php)
+- [🔗 Ver clase online](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-3.php)
