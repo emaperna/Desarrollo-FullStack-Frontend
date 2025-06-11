@@ -308,7 +308,7 @@
 
 ## ✅ Actividad 1: Estructura semántica
 
-# Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.
+Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.
 
 - 1 Crear un archivo llamado `pagina_semantica.html`
 - 2 Construir una página con la siguiente estructura:
@@ -327,7 +327,7 @@ Bonus: Utilizar `<time>`, `<figure>` y `<figcaption>` en alguna parte de la pág
 ## ✅ Actividad 2: Proyecto "Mi Blog Personal"
 
 
-# Objetivo: Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.
+Objetivo: Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.
 
 - Descripción del proyecto:
 
