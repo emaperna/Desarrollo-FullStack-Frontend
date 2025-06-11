@@ -12,23 +12,26 @@ Curso de Programación FullStack Frontend de la **Universidad Popular Gral. Leva
 
 #### 📘 Clase 1: Introducción a la Web y HTML Básico  
 - Historia y evolución de la web.  
-- Estructura básica: `<!DOCTYPE>`, etiquetas `<html>`, `<head>`, `<body>`.  
+- Estructura básica de una página: `<!DOCTYPE>`, etiquetas `<html>` principales, (`<html>` `<head>`, `<body>`.)  
 - Primeros ejemplos en el editor de código.  
 - **Ejercicio**: Crear una página de bienvenida con título y párrafo.
 
-#### 🏷️ Clase 2: Etiquetas Fundamentales  
-- Uso de Etiquetas semánticas: `<header>`, `<footer>`, `<section>`, `<article>`.  
-- Listas ordenadas y desordenadas, enlaces y manejo de imágenes.  
-- **Ejercicio**: Armar una estructura básica de un sitio personal.
+#### 🏷️ Clase 2: Estructura HTML, Enlaces y Formularios 
+- Estructura y anatomía de las etiquetas HTML. 
+- Creación de enlaces internos y externos.
+- Formularios para la entrada de datos del usuario.
+- Uso de listas ordenadas y desordenadas.
+- **Ejercicios**: Armar un Formulario de contacto y un archivo de Listas desordenada y ordenada.
 
-#### 📝 Clase 3: Formularios y Medios  
-- Creación de formularios con campos de entrada, áreas de texto y botones.
-- Inserción de audio y video en páginas web. 
-- **Ejercicio**: Diseñar un formulario de contacto simple.
-#### 🎨 Clase 4: Introducción a CSS  
-- Conceptos básicos de CSS: selectores, propiedades y valores.
-- Diferentes formas de aplicar CSS (en línea, interno y externo).
-- **Ejercicio**: Aplicar estilos básicos a la página creada en clases anteriores.
+#### 📝 Clase 3: Tablas e Imagenes  
+- Creación de tablas para mostrar datos estructurados.
+- Inserción y optimización de imágenes en páginas web. 
+- **Ejercicio**: Usar tablas para estructurar una página, Practicar la inserción de imágenes y la creación de diversos tipos de enlaces.
+
+#### 🎨 Clase 4: Inputs y HTML Semántico  
+- Daremos un vistazo rapido por todos los inputs nativos de HTML
+- Conoceremos que es el HTML semántico y su importancia.
+- **Ejercicio**: Aplicar estilos básicos a la página creada en clases anteriores. Creamos nuestro blog personal.
 
 #### 📦 Clase 5: El Modelo de Caja (Box Model)  
 - Explicación de márgenes, rellenos (padding), bordes y contenido.  
