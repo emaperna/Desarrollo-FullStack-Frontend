@@ -1,0 +1,84 @@
+<!--
+Actividad 1: Estructura semántica
+
+Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.
+
+- Crear un archivo llamado pagina_semantica.html
+- Construir una página con la siguiente estructura:
+- Un <header> que contenga un título y una pequeña descripción
+- Un <nav> con al menos 4 enlaces (pueden ser ficticios)
+- Un <main> dividido en 2 <section>:
+- Primera sección: 2 <article> con contenido breve
+- Segunda sección: Un formulario simple
+Un <aside> con "contenido relacionado" o "publicidad"
+Un <footer> con derechos de autor y año
+
+Bonus: Utilizar <time>, <figure> y <figcaption> en alguna parte de la página.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Semántica</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Semántica</h1>
+        <p>Esta es una página de ejemplo.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="http://www.google.com">Google</a></li>
+            <li><a href="http://www.youtube.com">Youtube</a></li>
+            <li><a href="http://www.facebook.com">Facebook</a></li>
+            <li><a href="http://www.x.com">X (ex Twitter)</a></li>
+        </ul>
+        <br>
+        <main>
+            <section>
+                <article>
+                    <h2>Aprende Desarrollo Frontend en UPGL</h2>
+                    <p> El frontend es la parte que el usuario ve y con la que interactúa.</p>
+                </article>
+                <br>
+                <article>
+                    <h2>Aprende Desarrollo Backend en UPGL</h2>
+                    <p>El backend es la infraestructura y lógica que está oculta al usuario y hace que la aplicación funcione.</p>
+                </article>
+            </section>
+            <br>
+            <section>
+                <h2>Formulario de Contacto Simple</h2>
+                <form>
+                    <label for="name">Nombre:</label>
+                    <br>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Correo electrónico:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <br>
+                </form>
+            </section>
+            <br>
+            <aside>
+                <h2>Contenido Relacionado</h2>
+                <figure>
+                    <img src="https://www.apple.com/newsroom/images/2025/06/apple-elevates-the-iphone-experience-with-ios-26/article/Apple-WWDC25-iOS-26-hero-250609_big.jpg.large.jpg" alt="Nuevo iOs 26" width="300" height="200">
+                    <figcaption>Novedades de Apple, nuevo sistema iOS 26</figcaption>
+                </figure>
+            </aside>
+        </main>
+            <br>
+            <footer>
+                <p>&copy; 2025 Mi Página Semántica. Todos los derechos reservados.</p>
+                <time datetime="2025-06-11">Última actualización: 11 de Junio de 2025</time>
+            </footer>
+        
+</body>
+</html>
