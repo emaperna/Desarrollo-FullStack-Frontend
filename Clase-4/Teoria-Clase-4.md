@@ -181,7 +181,7 @@
   ```html
   <input type="text" required>
   ```
-Intenta enviar sin llenar este campo
+  Intenta enviar sin llenar este campo
 
 - `placeholder`: Texto de ayuda, Muestra un texto de ayuda dentro del campo que desaparece cuando el usuario empieza a escribir.
   ```html
@@ -192,43 +192,43 @@ Intenta enviar sin llenar este campo
   ```html
   <input type="number" min="18" max="65">
   ```
-(Prueba ingresar un número fuera del rango)
+  (Prueba ingresar un número fuera del rango)
 
 - `step`: Incremento, Especifica el incremento en campos numéricos y de rango. Útil para precios, porcentajes, etc.
   ```html
   <input type="number" step="0.50">
   ```
-(Usa las flechas del campo para ver el incremento)
+  (Usa las flechas del campo para ver el incremento)
 
 - `pattern`: Validación personalizada, Define un patrón de validación usando expresiones regulares para formatos específicos.
   ```html
   <input type="text" pattern="[0-9]{5}">
   ```
-(Solo acepta exactamente 5 números)
+  (Solo acepta exactamente 5 números)
 
 - `disabled`: Campo desactivado, Desactiva el campo, impidiendo la interacción del usuario. El valor no se envía en el formulario.
   ```html
   <input type="text" disabled>  
   ```
-(Este campo no es interactivo)
+  (Este campo no es interactivo)
 
 - `readonly`: Solo lectura, Hace el campo de solo lectura, visible pero no editable. A diferencia de disabled, el valor sí se envía.
   ```html
   <input type="text" readonly>
   ```
-(Puedes seleccionar el texto pero no editarlo)
+  (Puedes seleccionar el texto pero no editarlo)
 
 - `multiple`: Selección múltiple, Permite seleccionar múltiples valores en campos de archivo o listas.
   ```html
   <input type="file" multiple>
   ```
-(Puedes seleccionar varios archivos a la vez)
+  (Puedes seleccionar varios archivos a la vez)
 
 - `accept`: Tipos de archivo permitidos, Especifica qué tipos de archivo son permitidos en inputs de tipo file.
   ```html
   <input type="file" accept=".pdf">
   ```
-(Solo permite seleccionar archivos PDF)
+  (Solo permite seleccionar archivos PDF)
 
 - `autocomplete`: Control de autocompletado, Controla si el navegador puede autocompletar el campo con datos guardados previamente.
   ```html
@@ -239,13 +239,13 @@ Intenta enviar sin llenar este campo
   ```html
   <input type="text" value="España">
   ```
-(Valor predefinido que el usuario puede cambiar)
+  (Valor predefinido que el usuario puede cambiar)
 
 - `maxlength`: Límite de caracteres, Limita el número máximo de caracteres que se pueden escribir en el campo.
   ```html
   <input type="text" maxlength="50">
   ```
-(No podrás escribir más de 50 caracteres)
+  (No podrás escribir más de 50 caracteres)
 
 - `size`: Ancho visual, Define el ancho visual del campo en número de caracteres.
   ```html
@@ -256,25 +256,25 @@ Intenta enviar sin llenar este campo
   ```html
   <input type="text" autofocus>
   ```
-(Solo un elemento por página debe tener autofocus)
+  (Solo un elemento por página debe tener autofocus)
 
 - `form`: Asociar con formulario, Permite asociar un input con un formulario específico aunque no esté dentro de él.
   ```html
   <input type="text" form="miFormulario">
   ```
-(Este input está fuera del form pero se enviará con él)
+  (Este input está fuera del form pero se enviará con él)
 
 - `list`: Lista de sugerencias, Conecta el input con un datalist para mostrar opciones sugeridas.
   ```html
   <input type="text" list="navegadores">
   ```
-(Empieza a escribir para ver las sugerencias)
+  (Empieza a escribir para ver las sugerencias)
 
 - `formnovalidate`: Omitir validación, En botones de envío, permite enviar el formulario sin validar los campos.
   ```html
   <input type="submit" formnovalidate>
   ```
-(El segundo botón no validará el email)
+  (El segundo botón no validará el email)
 
 ---
 
