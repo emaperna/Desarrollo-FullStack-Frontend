@@ -57,78 +57,118 @@
   ```
 
 - `password`: Campo para contraseñas
-  `<input type="password">`
+  ```html
+  <input type="password">
+  ```
 
 - `email`: Campo para correos electrónicos
-  `<input type="email">`
+  ```html
+  <input type="email">
+  ```
 
 - `url`: Campo para URLs
-  `<input type="url">`
+  ```html
+  <input type="url">
+  ```
 
 - `tel`: Campo para números telefónicos
-  `<input type="tel">`
+   ```html
+  <input type="tel">
+  ```
 
 - `search`: Campo de búsqueda
-  `<input type="search">`
-
+   ```html
+  <input type="search">
+  ```
 
 ### 📆 Inputs numéricos y de fecha/Hora:
 
 - `number`: Campo para números
-  `<input type="number" min="1" max="100">`
+   ```html
+  <input type="number" min="1" max="100">
+  ```
 
 - `range`: Selector de rango
-  `<input type="range" min="0" max="100">`
+   ```html
+  <input type="range" min="0" max="100">
+  ```
 
 - `date`: Campo para fechas
-  `<input type="date">`
-
+ ```html
+  <input type="date">
+  ```
+  
 - `time`: Campo para hora
-  `<input type="time">`
+ ```html
+  <input type="time">  
+  ```
 
 - `datetime-local`: Fecha y hora local
-  `<input type="datetime-local">`
+ ```html
+  <input type="datetime-local">
+  ```
 
 - `month`: Selector de mes
-  `<input type="month">`
+ ```html
+  <input type="month">
+  ```
 
 - `week`: Selector de semana
-  `<input type="week">`
+ ```html
+  <input type="week">
+  ```
 
 
 ### ☑️ Inputs de selección:
 
 - `checkbox`: Casilla de verificación
-  `<input type="checkbox">`
+ ```html
+  <input type="checkbox">
+  ```
 
 - `radio`: Botones de opción
-  `<input type="radio" name="grupo">`
+ ```html
+  <input type="radio" name="grupo">
+  ```
 
 - `color`: Selector de color
-  `<input type="color">`
+ ```html
+  <input type="color">
+  ```
 
 - `file`: Selector de archivos
-  `<input type="file">`
+ ```html
+  <input type="file">
+  ```
 
 ### 🔘 Inputs de Botones:
 
 - `submit`: Botón de envío
-  `<input type="submit">`
+ ```html
+  <input type="submit">
+  ```
 
 - `reset`: Botón de reinicio
-  `<input type="reset">`
+ ```html
+  <input type="reset">
+  ```
 
 - `button`: Botón genérico
-  `<input type="button">`
-
+ ```html
+  <input type="button">
+  ```
 
 ### 🛠️  Inputs Especiales:
 
 - `hidden`: Campo oculto (no visible), Este campo no es visible pero está presente en el formulario
-  `<input type="hidden">`
+ ```html
+  <input type="hidden">
+  ```
 
 - `image`: Botón de imagen
-  `<input type="image" src="imagen.png">`
+ ```html
+  <input type="image" src="imagen.png">
+  ```
 
 ---
 
@@ -138,61 +178,115 @@
 
 
 - `required`: Campo obligatorio, Hace que el campo sea obligatorio para enviar el formulario. Si está vacío, el navegador mostrará un mensaje de error.
-  `<input type="text" required>` Intenta enviar sin llenar este campo
+ ```html
+  <input type="text" required>
+  ```
+Intenta enviar sin llenar este campo
 
 - `placeholder`: Texto de ayuda, Muestra un texto de ayuda dentro del campo que desaparece cuando el usuario empieza a escribir.
-`<input type="email" placeholder="ejemplo@correo.com">`
+ ```html
+  <input type="email" placeholder="ejemplo@correo.com">
+  ```
 
 - `min` / `max`: Valores límite, Define valores mínimo y máximo para campos numéricos y de fecha. El navegador validará automáticamente.
-  `<input type="number" min="18" max="65">` (Prueba ingresar un número fuera del rango)
+ ```html
+  <input type="number" min="18" max="65">
+  ```
+(Prueba ingresar un número fuera del rango)
 
 - `step`: Incremento, Especifica el incremento en campos numéricos y de rango. Útil para precios, porcentajes, etc.
-  `<input type="number" step="0.50">` (Usa las flechas del campo para ver el incremento)
+ ```html
+  <input type="number" step="0.50">
+  ```
+(Usa las flechas del campo para ver el incremento)
 
 - `pattern`: Validación personalizada, Define un patrón de validación usando expresiones regulares para formatos específicos.
-  `<input type="text" pattern="[0-9]{5}">` (Solo acepta exactamente 5 números)
+ ```html
+  <input type="text" pattern="[0-9]{5}">
+  ```
+(Solo acepta exactamente 5 números)
 
 - `disabled`: Campo desactivado, Desactiva el campo, impidiendo la interacción del usuario. El valor no se envía en el formulario.
-  `<input type="text" disabled>` (Este campo no es interactivo)
+ ```html
+  <input type="text" disabled>  
+  ```
+(Este campo no es interactivo)
 
 - `readonly`: Solo lectura, Hace el campo de solo lectura, visible pero no editable. A diferencia de disabled, el valor sí se envía.
-  `<input type="text" readonly>` (Puedes seleccionar el texto pero no editarlo)
+ ```html
+  <input type="text" readonly>
+  ```
+(Puedes seleccionar el texto pero no editarlo)
 
 - `multiple`: Selección múltiple, Permite seleccionar múltiples valores en campos de archivo o listas.
-  `<input type="file" multiple>`  (Puedes seleccionar varios archivos a la vez)
+ ```html
+  <input type="file" multiple>
+  ```
+(Puedes seleccionar varios archivos a la vez)
 
-- `autocomplete`
-  ``
+- `accept`: Tipos de archivo permitidos, Especifica qué tipos de archivo son permitidos en inputs de tipo file.
+   ```html
+  <input type="file" accept=".pdf">
+  ```
+(Solo permite seleccionar archivos PDF)
 
-- `autofocus`
-  ``
+- `autocomplete`: Control de autocompletado, Controla si el navegador puede autocompletar el campo con datos guardados previamente.
+   ```html
+  <input type="text" autocomplete="off">
+  ```
 
+- `value`: Valor predeterminado, Establece un valor inicial que aparece cuando se carga la página.
+   ```html
+  <input type="text" value="España">
+  ```
+(Valor predefinido que el usuario puede cambiar)
 
+- `maxlength`: Límite de caracteres, Limita el número máximo de caracteres que se pueden escribir en el campo.
+   ```html
+  <input type="text" maxlength="50">
+  ```
+(No podrás escribir más de 50 caracteres)
 
-- `form`
-  ``
+- `size`: Ancho visual, Define el ancho visual del campo en número de caracteres.
+   ```html
+  <input type="text" size="40">
+  ```
 
-- `list`
-  ``
+- `autofocus`: Foco automático, Hace que el campo reciba el foco automáticamente cuando se carga la página.
+   ```html
+  <input type="text" autofocus>
+  ```
+(Solo un elemento por página debe tener autofocus)
 
-- `formnovalidate`
-  ``
+- `form`: Asociar con formulario, Permite asociar un input con un formulario específico aunque no esté dentro de él.
+   ```html
+  <input type="text" form="miFormulario">
+  ```
+(Este input está fuera del form pero se enviará con él)
 
-- `value`
-  ``
+- `list`: Lista de sugerencias, Conecta el input con un datalist para mostrar opciones sugeridas.
+   ```html
+  <input type="text" list="navegadores">
+  ```
+(Empieza a escribir para ver las sugerencias)
 
-- `maxlength`
-  ``
-
-- `size`
-  ``
-
+- `formnovalidate`: Omitir validación, En botones de envío, permite enviar el formulario sin validar los campos.
+   ```html
+  <input type="submit" formnovalidate>
+  ```
+(El segundo botón no validará el email)
 
 ---
 
-## 💡 Buenas Prácticas
+## 💡Mejores Prácticas para Inputs
 
-- Usa el tipo adecuado según el dato.
+- Usa el tipo correcto:
+Cada tipo de input tiene un propósito específico. Usar 
+```html
+  <type="email"
+  ``` 
+para emails activa la validación automática y mejora la experiencia en móviles.
+
 - Aplica validaciones HTML y del lado del servidor.
 - Mejora la experiencia con `placeholder`, `autofocus`, `autocomplete`.
 - Piensa en la accesibilidad y dispositivos móviles.
@@ -210,5 +304,3 @@ Crear una página HTML con etiquetas como `<header>`, `<nav>`, `<main>`, `<secti
 Construir un blog personal con estructura semántica, artículos, formulario de contacto, y navegación.
 
 ---
-
-🔗 Ver contenido completo online: [Clase 4 – Semántica HTML](https://qrsurcba.online/landing_cursos/pages/clases-front/clase-4.php)
